@@ -1,0 +1,14 @@
+NAME
+gene_class -- classes of genes
+
+SYNOPSIS
+gene_class [file ...] | -h
+
+DESCRIPTION
+The gene_class utility displays the number of each found type of genes grouped by "# feature" in each csv or excel file of feature table. If there is two or more sheets in excel file, only the first sheet will be taken into account. If no file is specified, a filename or filenames separated with space will be requested.
+
+The following options are available:
+-h      Show this manual in the console and terminate gene_class program
+
+ENVIRONMENT
+The LANG, LC_ALL and LC_CTYPE environment variables affect the execution of gene_class as described in environ(7)

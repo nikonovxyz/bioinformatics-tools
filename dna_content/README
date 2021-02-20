@@ -1,0 +1,20 @@
+NAME
+dna_content -- DNA nucleotide content
+
+SYNOPSIS
+dna_content [-clfn] [file ...]
+
+DESCRIPTION
+The dna_content utility displays the number of each type of found nucleotides, its frequency, GC-content and total length in nucleotides of DNA in each input file. If no file is specified, the filename or filenames separated with space will be requested.
+
+The following options are avilable:
+-a      Show all the data. Equivalent to -cfhl
+-c      Show GC-content expressed in decimal shares
+-f      Show frequency of occurrence of each found nucleotide (or another symbol) expressed in decimal shares. Spaces and symbols in strings started with ">" are not take into account
+-h      Show this manual in the console and terminate dna_content program
+-l      Show total length of DNA (or another strings) in each file. Spaces and symbols in strings started with ">" are not take into account
+-n      Do not show number of occurrence of nucleotides (or another symbols) in files
+
+ENVIRONMENT
+The LANG, LC_ALL and LC_CTYPE environment variables affect 
+the execution of gene_class as described in environ(7)."
